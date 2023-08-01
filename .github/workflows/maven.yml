@@ -8,8 +8,10 @@
 
 name: Java CI with Maven
 
-on: [push,pull_request]
-
+on: 
+  push: 
+  pull_request:
+    branches: [Test1,Test2,master]
 jobs:
   build:
 
