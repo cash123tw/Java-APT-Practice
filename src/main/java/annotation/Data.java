@@ -6,6 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Target({ElementType.TYPE,ElementType.FIELD})
-@Retention(RetentionPolicy.SOURCE)xxx
+@Retention(RetentionPolicy.SOURCE)xxxxxx
 public @interface Data {
 }
